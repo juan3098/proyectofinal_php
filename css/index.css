@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/login_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+html::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.sesion{
+    background-color: rgba(73, 73, 73, 0.116);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 100px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+h1{
+    margin: 35px auto;
+    color: white;
+}
+
+.datos{
+    width: 230px;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    text-align: center;
+    border: 0px inset black;
+    background-color: rgba(248, 226, 226, 0.959);
+}
+
+.btn{
+    width: 230px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    background-color: rgba(248, 226, 226, 0.959);
+}
+
+@media screen and (max-width: 992px){
+    .sesion{
+        width: 300px;
+        margin: 115px auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: url("../img/login-portrait.jpg");
+    }
+    .sesion{
+        width: 300px;
+        margin: 90px auto;
+    }
+}
+
+@media screen and (max-width: 575px){
+    body{
+        background-image: url("../img/login-portrait.jpg");
+    }
+    .sesion{
+        width: 300px;
+        margin: 70px auto;
+    }
+}

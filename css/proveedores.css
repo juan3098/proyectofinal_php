@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+.form_proveedores{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: rgba(7, 96, 102, 0.993);
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.tabla_registro td{
+    width: 200px;
+    padding: 0 45px;
+    height: 30px;
+    text-align: center;
+}
+
+.tabla_proveedores th{
+    border: 1px solid black;
+    background-color: #af514a;
+    padding: 3px;
+    color: white;
+}
+
+.tabla_proveedores{
+    margin: 10px 0px;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+}
+
+.tabla_proveedores tr:hover{
+    background-color: rgb(205, 228, 235);
+}
+
+.div_proveedores{
+    margin-left: 30px;
+    border-color: black;
+}
+
+.btn{
+    width: 65px;
+    padding: 5px 5px;
+    height: 30px;
+    outline: none;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.btn-edit{
+    background-color: #a1e3e7ee;
+    border-color:#2fa4e7
+}
+
+.btn-del{
+    background-color:#d8b39c;
+    border-color:#dd5600;
+}
+
+.btn-buscar{
+    outline: none;
+    width: 150px;
+    height: 25px;
+}
+
+.tabla_proveedores th , tr{
+    width: 140px;
+    text-align: center;
+}
+
+.tabla_proveedores .small{
+    width: 120px;
+}
+
+.principal_proveedores{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 992px){
+    .titulo{
+        margin: 0;
+    }
+    .form_proveedores{
+        font-size: 12px;
+        width: 200px;
+        margin: 20px 10px;
+    }
+
+    .tabla_registro td{
+        padding: 0 20px;
+    }
+
+    .tabla_proveedores{
+        font-size: 12px;
+    }
+    .div_proveedores{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .titulo{
+        margin: 0;
+    }
+    .principal_proveedores{
+        display: block;
+    }
+    .form_proveedores{
+        font-size: 12px;
+        width: 250px;
+        margin: 20px auto;
+    }
+    .tabla_registro td{
+        padding: 0 45px;
+    }
+    .tabla_proveedores{
+        font-size: 12px;
+    }
+    .div_proveedores{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .principal_proveedores{
+        display: block;
+    }
+    .form_proveedores{
+        font-size: 12px;
+        margin: 20px auto;
+    }
+    .tabla_proveedores{
+        font-size: 12px;
+    }
+    .div_proveedores{
+        margin: 20px;
+    }
+}
